@@ -12,7 +12,6 @@
 		BD1EC0E323E1E4BE0022348E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1EC0E223E1E4BE0022348E /* ViewController.m */; };
 		BD1EC0E623E1E4BE0022348E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1EC0E423E1E4BE0022348E /* Main.storyboard */; };
 		BD1EC0E823E1E4BF0022348E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1EC0E723E1E4BF0022348E /* Assets.xcassets */; };
-		BD1EC0EB23E1E4BF0022348E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1EC0E923E1E4BF0022348E /* LaunchScreen.storyboard */; };
 		BD1EC0EE23E1E4BF0022348E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1EC0ED23E1E4BF0022348E /* main.m */; };
 		BD1EC0F623E1E4CF0022348E /* LSILog.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1EC0F423E1E4CF0022348E /* LSILog.m */; };
 		BD1EC0FB23E1E4E30022348E /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1EC0F823E1E4E30022348E /* Car.m */; };
@@ -29,7 +28,6 @@
 		BD1EC0E223E1E4BE0022348E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BD1EC0E523E1E4BE0022348E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD1EC0E723E1E4BF0022348E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BD1EC0EA23E1E4BF0022348E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD1EC0EC23E1E4BF0022348E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD1EC0ED23E1E4BF0022348E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD1EC0F423E1E4CF0022348E /* LSILog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSILog.m; sourceTree = "<group>"; };
@@ -51,6 +49,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13A5086524E22BF00005D21E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD1EC0DB23E1E4BD0022348E /* AppDelegate.h */,
+				BD1EC0DC23E1E4BD0022348E /* AppDelegate.m */,
+				BD1EC0DE23E1E4BD0022348E /* SceneDelegate.h */,
+				BD1EC0DF23E1E4BE0022348E /* SceneDelegate.m */,
+				BD1EC0E723E1E4BF0022348E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		13A5086624E22C180005D21E /* LambdaSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BD1EC0F523E1E4CF0022348E /* LSILog.h */,
+				BD1EC0F423E1E4CF0022348E /* LSILog.m */,
+			);
+			path = LambdaSDK;
+			sourceTree = "<group>";
+		};
+		13A5086724E22C3F0005D21E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BD1EC0F723E1E4E30022348E /* Car.h */,
+				BD1EC0F823E1E4E30022348E /* Car.m */,
+				BD1EC0FA23E1E4E30022348E /* Person.h */,
+				BD1EC0F923E1E4E30022348E /* Person.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		13A5086824E22C4A0005D21E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD1EC0E123E1E4BE0022348E /* ViewController.h */,
+				BD1EC0E223E1E4BE0022348E /* ViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		BD1EC0CF23E1E4BD0022348E = {
 			isa = PBXGroup;
 			children = (
@@ -70,23 +109,13 @@
 		BD1EC0DA23E1E4BD0022348E /* MemoryManagement */ = {
 			isa = PBXGroup;
 			children = (
-				BD1EC0DB23E1E4BD0022348E /* AppDelegate.h */,
-				BD1EC0DC23E1E4BD0022348E /* AppDelegate.m */,
-				BD1EC0DE23E1E4BD0022348E /* SceneDelegate.h */,
-				BD1EC0DF23E1E4BE0022348E /* SceneDelegate.m */,
-				BD1EC0E123E1E4BE0022348E /* ViewController.h */,
-				BD1EC0E223E1E4BE0022348E /* ViewController.m */,
-				BD1EC0F723E1E4E30022348E /* Car.h */,
-				BD1EC0F823E1E4E30022348E /* Car.m */,
-				BD1EC0FA23E1E4E30022348E /* Person.h */,
-				BD1EC0F923E1E4E30022348E /* Person.m */,
 				BD1EC0E423E1E4BE0022348E /* Main.storyboard */,
-				BD1EC0E723E1E4BF0022348E /* Assets.xcassets */,
-				BD1EC0E923E1E4BF0022348E /* LaunchScreen.storyboard */,
-				BD1EC0EC23E1E4BF0022348E /* Info.plist */,
+				13A5086724E22C3F0005D21E /* Models */,
+				13A5086824E22C4A0005D21E /* View Controllers */,
+				13A5086524E22BF00005D21E /* Resources */,
+				13A5086624E22C180005D21E /* LambdaSDK */,
 				BD1EC0ED23E1E4BF0022348E /* main.m */,
-				BD1EC0F523E1E4CF0022348E /* LSILog.h */,
-				BD1EC0F423E1E4CF0022348E /* LSILog.m */,
+				BD1EC0EC23E1E4BF0022348E /* Info.plist */,
 			);
 			path = MemoryManagement;
 			sourceTree = "<group>";
@@ -148,7 +177,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD1EC0EB23E1E4BF0022348E /* LaunchScreen.storyboard in Resources */,
 				BD1EC0E823E1E4BF0022348E /* Assets.xcassets in Resources */,
 				BD1EC0E623E1E4BE0022348E /* Main.storyboard in Resources */,
 			);
@@ -180,14 +208,6 @@
 				BD1EC0E523E1E4BE0022348E /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BD1EC0E923E1E4BF0022348E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BD1EC0EA23E1E4BF0022348E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
